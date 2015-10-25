@@ -1,5 +1,5 @@
 # pyRevDNS
-Python reverse DNS script. Allows you to specify the DNS server IP. 
+Python reverse DNS script to obtain the hostnames from ips in a list :). Allows you to specify the DNS server IP. 
 
 Usage:
 

@@ -16,6 +16,7 @@ else:
 ipfile = open(sys.argv[1],"r").readlines()
 dnsserver = sys.argv[2]
 resolver = dns.resolver.Resolver()
+# Set DNS Server
 resolver.namerservers = [dnsserver]
 for i in ipfile:
     try:
